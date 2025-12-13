@@ -5,7 +5,8 @@ from PyQt5.QtCore import Qt
 
 API_KEY = "0e05650e9ececb62f3cdc1d6cb842be4"
 CITY = "Aguascalientes"
-URL = f"http://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric&lang=es"
+URL = f"https://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric&lang=es"
+
 
 class WeatherApp(QWidget):
     def __init__(self):
